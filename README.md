@@ -15,7 +15,7 @@ A theme plugin for [Hermes Desktop](https://hermes-agent.nousresearch.com) — S
 
 ## Why it exists
 
-Honestly I just felt the default Solarized theme was a bad immitation of the design philosophy and color grading, which causes very poor visual like a dark, muddy swamp.
+Honestly I just felt the default Solarized theme was a bad imitation of the design philosophy and color grading, which causes very poor visual like a dark, muddy swamp.
 
 //AI Generated content//
 The shipped Solarized port kept the colors but quietly broke the philosophy: invented browns and grays that don't exist in the palette, a muted-foreground value filed under the wrong name, a gray ANSI set replacing the author's official 16-value mapping, and a light mode that no longer mirrored the dark one. This rebuild keeps every one of the canonical sixteen values, none invented, and lets the design system's own mechanics do the work:
