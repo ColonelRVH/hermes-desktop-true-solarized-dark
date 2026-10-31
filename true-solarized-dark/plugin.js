@@ -9,8 +9,7 @@
  * the documented routes (the ladder, the published blend percentages, the
  * system's own AA-deepening contract). Both modes are true mirrors: one
  * recipe per mode, the symmetry the palette promises. Every text pairing is
- * instrument-certified (calibrated WCAG sRGB) for heavy chat content. And the
- * name is honest: the official link-role blue - #268bd2 - runs the whole room.
+ * instrument-certified (calibrated WCAG sRGB) for heavy chat content.
  *
  * Install: copy this folder (the name must equal the plugin id) into
  * <hermes-home>/desktop-plugins/ e.g. %LOCALAPPDATA%\hermes\desktop-plugins\
@@ -21,7 +20,7 @@
 const THEME = {
   "name": "true-solarized-dark",
   "label": "True Solarized Dark",
-  "description": "Solarized as authored \u2014 the official link-role blue runs the whole room",
+  "description": "Solarized your AI Agent",
   "colors": {
     "background": "#eee8d5",
     "foreground": "#002b36",
@@ -123,7 +122,7 @@ const THEME = {
 export default {
   id: 'true-solarized-dark',
   name: 'True Solarized Dark',
-  description: 'Solarized as authored — the official link-role blue runs the whole room',
+  description: 'Solarized your AI Agent',
   register(ctx) {
     ctx.register({ id: 'theme', area: 'themes', data: THEME })
     console.log('[true-solarized-dark] v1.0.0 contributed — pick it in Settings > Appearance')
