@@ -50,7 +50,7 @@ const THEME = {
   },
   "darkColors": {
     "background": "#002b36",
-    "foreground": "#fdf6e3",
+    "foreground": "#c9c9c9",
     "card": "#002b36",
     "cardForeground": "#fdf6e3",
     "muted": "#217fbf",
